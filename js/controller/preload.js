@@ -34,11 +34,11 @@ function preloadImages(expression) {
 
     // main-page
     case "main-page":
-      $.preloadImages(
-        "images/pages/main-page/BG.jpg",
-        "images/pages/main-page/img.jpg",
-        "images/pages/main-page/Logo_gold.png"
-      );
+      // $.preloadImages(
+      //   "images/pages/main-page/BG.jpg",
+      //   "images/pages/main-page/img.jpg",
+      //   "images/pages/main-page/Logo_gold.png"
+      // );
       break;
 
     // part1-content1

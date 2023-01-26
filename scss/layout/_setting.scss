@@ -21,7 +21,7 @@ body {
   font-size: rem(30);
   font-weight: normal;
   text-align: center;
-  background-color: #E6EAED;
+  background-color: #e6eaed;
 
   @include for-mobile {
     font-size: rem(42);
@@ -49,7 +49,6 @@ img {
 
 .m-style {
   display: none;
-
   @include for-mobile {
     display: block;
   }
@@ -57,7 +56,6 @@ img {
 
 .d-style {
   display: block;
-
   @include for-mobile {
     display: none;
   }

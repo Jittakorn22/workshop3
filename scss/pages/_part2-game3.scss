@@ -1,2 +1,90 @@
 #part2-game3 {
+    .section {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &--1 {
+            width: 1384;
+            flex-direction: column;
+        }
+        &--2 {
+            width: 1250px;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        &__mid {
+            width: 335px;
+            height: 650px;
+        }
+        &__box {
+            display: flex;
+            width: 302px;
+            height: 83.05px;
+            background: rgba(112, 112, 112, 0.55);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(1px);
+            -webkit-backdrop-filter: blur(1px);
+            align-items: center;
+            justify-content: center;
+        }
+        &__side {
+            display: flex;
+            width: 402px;
+            height: 313.66px;
+            gap: 35px;
+            flex-direction: column;
+            align-items: center;
+            overflow: visible;
+            &--1 {
+                order: -1;
+            }
+        }
+        &__btn {
+            border-radius: 10px;
+            width: 302px;
+            height: 84px;
+            background-color: #b4956c;
+        }
+    }
+    .text {
+        text-align: center;
+        font-size: 24px;
+        &--gold {
+            margin-top: 0;
+            color: #b4956c;
+        }
+        &--h1 {
+            font-size: 48px;
+        }
+        &--h2 {
+            font-size: 30px;
+        }
+    }
+    .swiper{
+        overflow: visible;
+    }
+    .drag_inner {
+        width: 300px;
+        height: 100ox;
+        margin: 0 auto;
+        padding: 10px;
+        background: red;
+       
+    }
+
+.swiper-button-prev{
+    left: 35%;
+    right: auto;
+}
+.swiper-button-next{
+    right: 35%;
+    left: auto;
+}
+}
+
+
+* {
+    box-sizing: border-box;
 }
